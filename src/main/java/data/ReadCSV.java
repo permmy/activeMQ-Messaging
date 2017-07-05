@@ -72,7 +72,7 @@ class ReadCSV {
                 result = matcher.replaceAll("");
             }
 
-            Character lettr = result.charAt(5);
+            Character lettr = result.charAt(4);
             if (result.length() == 12 && (lettr == 'C' || lettr == 'G')) {
                 System.out.println("Saving data to the database....");
                 JDBC jdbc = new JDBC();
