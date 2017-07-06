@@ -24,7 +24,7 @@ class ReadCSV {
         String path = "csv/";
         String myFile = "";
 
-        FileWriter fileWriter = null;
+        FileWriter fileWriter;
         try {
             scanner = new Scanner(System.in);
             System.out.println("Create a csv file must end with .csv extension");
