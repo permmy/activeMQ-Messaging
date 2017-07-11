@@ -83,7 +83,6 @@ class ReadCSV {
 
                 System.out.println("Logging data to ActiveMQ...");
                 ActiveMQ activeMQ = new ActiveMQ();
-                System.out.println(result.charAt(2));
                 try {
                     JSONObject jsonObject = new JSONObject()
                             .put("character1", Character.valueOf(result.charAt(0)))
